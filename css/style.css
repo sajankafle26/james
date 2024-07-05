@@ -1,0 +1,41 @@
+body 
+{
+    background: #FAFAFC;
+}
+@media (min-width: 1200px) {
+    .container
+    {
+        max-width: 1280px;
+    }
+}
+.top
+{
+    font-size: 14px;
+}
+.m 
+{
+    position: relative;
+    left: -20px;
+    border-radius: 0 5px 5px 0;
+}
+.mero 
+{
+    background: #4570B6 !important;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    color: #fff;
+}
+.mySwiper img 
+{
+    width: 100%;
+}
+.box-c
+{
+    bottom: -40px;
+    transition: 0.9s;
+    background: #fff;
+}
+.box-c:hover 
+{
+    transform: translateY(-30px);
+}
